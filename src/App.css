@@ -15,12 +15,12 @@
   box-shadow: 0 0 20px 0 rgba(142, 180, 226, 0.7);
   border-radius: 100px;
   cursor: ew-resize;
-  transition: transform 0.2s;
+  transition: transform 0.07s;
   box-sizing: border-box;
 }
 
 .active {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .bar-0 {
