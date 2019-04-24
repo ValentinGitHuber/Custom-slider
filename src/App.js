@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import styled from "styled-components";
 import ReactSlider from "react-slider";
 import "./App.css";
 
