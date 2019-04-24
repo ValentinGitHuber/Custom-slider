@@ -16,18 +16,19 @@
   border-radius: 100px;
   cursor: ew-resize;
   transition: transform 0.2s;
+  box-sizing: border-box;
 }
 
 .active {
   transform: scale(1.2);
 }
-.bar {
-  height: 5px;
-}
+
 .bar-0 {
+  height: 8-x;
   background: #1992d4;
 }
 
 .bar-1 {
+  height: 5px;
   background: #badff2;
 }
