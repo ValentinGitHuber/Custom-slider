@@ -12,7 +12,12 @@ export default () => {
     <div style={{ padding: "200px" }}>
       <h1>{nr}</h1>
       <div style={{ maxWidth: "500px" }}>
-        <ReactSlider defaultValue={def} withBars onChange={move} />
+        <ReactSlider
+          defaultValue={def}
+          withBars
+          onChange={move}
+          onSliderClick={move}
+        />
       </div>
     </div>
   );
