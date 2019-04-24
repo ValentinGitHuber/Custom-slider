@@ -5,7 +5,6 @@ import "./App.css";
 export default () => {
   const def = 50;
   const [nr, setnr] = useState(def);
-
   const move = data => setnr(data);
 
   return (
